@@ -1,39 +1,44 @@
 body {
-    color: white;
-    background-color: black;
-    margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 100px;
-    transition: 0.5s;
+  color: white;
+  background-color: black;
+  margin: 0px;
+  font-family: "Chakra Petch", sans-serif;
+  margin-bottom: 100px;
+  transition: 0.5s;
 }
+
 body.dark {
   background-color: rgb(189, 189, 189);
 }
+
 body.dark .chamada {
   background-color: rgb(252, 252, 252);
 }
+
 body.dark header {
-    border-bottom: solid 2px rgb(167, 167, 167);
-    color: rgb(75, 75, 75);
-    background-color: rgb(233, 233, 233);
+  border-bottom: solid 2px rgb(167, 167, 167);
+  color: rgb(75, 75, 75);
+  background-color: rgb(233, 233, 233);
 }
+
 header {
-    border-bottom: solid 2px rgb(185, 4, 4);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(185, 4, 4);
-    transition: 0.5s;
-    
+  border-bottom: solid 2px rgb(185, 4, 4);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(185, 4, 4);
+  transition: 0.5s;
+
 }
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .treco {
-    display: flex;
-    margin: 50px;  
+  display: flex;
+  margin: 50px;
 }
 
 .treco2 {
@@ -54,26 +59,27 @@ header {
 .chamada-texto {
   margin-right: 5%;
 }
-  
+
 h1 {
   font-size: 40px;
-    
+
 }
-  
+
 p {
   font-size: 20px;
 }
 
 img {
   height: 200px;
-  
+
 }
-  .categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    background: black;
-  }
-  
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  background: black;
+}
+
 .categoria {
   padding-left: 20px;
   padding-right: 20px;
@@ -94,32 +100,37 @@ img {
   opacity: 1.0;
   border: 1px solid white;
 }
+
 p {
   color: rgb(212, 212, 212);
   margin: 0px;
   margin-right: 10px;
   transition: 0.5s;
 }
+
 .hashtag {
   color: rgb(240, 0, 0);
   transition: 0.5s;
 }
+
 body.dark .hashtag {
   color: rgb(75, 75, 75);
 }
+
 .button {
-  width: 30px;
-  height: 15px;
+  width: 40px;
+  height: 20px;
   background-color: gray;
   border-radius: 50px;
   cursor: pointer;
   position: relative;
   transition: 0.5s;
 }
+
 .button .bolinha {
-  width: 15px;
-  height: 15px;
-  nav-up: 10px;
+  width: 20px;
+  height: 20px;
+  nav-up: 15px;
   background-color: black;
   border-radius: 50%;
   transform: scale(.9);
@@ -127,22 +138,28 @@ body.dark .hashtag {
   left: 0;
   transition: .5s;
 }
-.button.dark{
+
+.button.dark {
   background-color: rgb(167, 167, 167);
 }
+
 .button.dark .bolinha {
-    left: 15px;
-    background-color: white;
+  left: 20px;
+  background-color: white;
 }
+
 body.dark p {
   color: black;
 }
+
 h2 {
   transition: 0.5s;
 }
+
 body.dark h2 {
   color: rgb(48, 48, 48);
 }
+
 h1 {
   transition: 0.5s;
 }
@@ -151,4 +168,6 @@ body.dark h1 {
   color: black;
 }
 
-
+.iframe {
+  border-radius: 20px;
+}
